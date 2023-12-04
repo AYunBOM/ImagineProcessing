@@ -13,3 +13,4 @@ def filter(image, mask):
             tmp = cv2.multiply(roi, mask)
             dst[i, j] = cv2.sumElems(tmp)[0]
     return dst
+
